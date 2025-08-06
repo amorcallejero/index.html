@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amor Callejero</title>
+  <style>
+    :root {
+      --naranja: #F4A261;
+      --coral: #F28482;
+      --marron-claro: #E9C46A;
+      --chocolate: #264653;
+      --blanco: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--blanco);
+      color: var(--chocolate);
+    }
+
+    header {
+      background-color: var(--naranja);
+      color: var(--blanco);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--coral);
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: var(--blanco);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--naranja);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--marron-claro);
+      padding-bottom: 0.5rem;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .dog-card {
+      background-color: var(--marron-claro);
+      color: var(--chocolate);
+      padding: 1rem;
+      border-radius: 10px;
+      flex: 1 1 250px;
+    }
+
+    footer {
+      background-color: var(--chocolate);
+      color: var(--blanco);
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .cta {
+      background-color: var(--coral);
+      color: var(--blanco);
+      padding: 2rem;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Amor Callejero</h1>
+    <p>Donde termina el abandono... comienza el amor</p>
+  </header>
+
+  <nav>
+    <a href="#historia">Nuestra Historia</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#adopciones">Adopciones</a>
+    <a href="#ayudar">Cómo ayudar</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>
+      Amor Callejero nació del compromiso de un grupo de cadetes de la Policía Nacional, conmovidos por la situación de los perros abandonados en las calles. Con vocación de servicio y empatía, iniciaron jornadas de alimentación, rescate y acompañamiento veterinario. Hoy, el proyecto se consolida como una organización que transforma vidas — humanas y peludas — a través del amor, la adopción y la educación.
+    </p>
+  </section>
+
+  <section id="servicios">
+    <h2>¿Qué hacemos?</h2>
+    <ul>
+      <li>🐾 Rescate y rehabilitación de perros callejeros</li>
+      <li>🏥 Atención médica y esterilización</li>
+      <li>📚 Educación sobre tenencia responsable</li>
+      <li>🏡 Promoción de la adopción responsable</li>
+    </ul>
+  </section>
+
+  <section id="adopciones">
+    <h2>Galería de Adopciones</h2>
+    <div class="gallery">
+      <div class="dog-card">
+        <h3>Max</h3>
+        <p>2 años · Juguetón · Rescatado en Soacha</p>
+      </div>
+      <div class="dog-card">
+        <h3>Canela</h3>
+        <p>1 año · Amorosa · Abandonada en un parque</p>
+      </div>
+      <div class="dog-card">
+        <h3>Bruno</h3>
+        <p>3 años · Sobreviviente de atropello · Recuperado</p>
+      </div>
+    </div>
+    <div class="cta">
+      <p>¿Quieres adoptar? ¡Contáctanos y cambia una vida!</p>
+    </div>
+  </section>
+
+  <section id="ayudar">
+    <h2>¿Cómo puedes ayudar?</h2>
+    <ul>
+      <li>💰 Donando: Nequi, Bancolombia, PayPal</li>
+      <li>👷 Siendo voluntario en jornadas de rescate</li>
+      <li>🧡 Apadrinando un peludo mensualmente</li>
+      <li>📢 Difundiendo nuestro proyecto en redes</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: amorcallejero@email.com</p>
+    <p>Instagram / TikTok: @AmorCallejero</p>
+    <p>Ubicación: Bogotá - Cúcuta - Y donde nos necesiten</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amor Callejero. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
